@@ -115,6 +115,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CLP_7_3_client.c" />
+    <ClCompile Include="CLP_7_3_clientw.c" />
+    <ClCompile Include="IPAddress.cpp" />
+    <ClCompile Include="SocektException.cpp" />
+    <ClCompile Include="SocketTCP.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IPAddress.h" />
+    <ClInclude Include="SocektException.h" />
+    <ClInclude Include="SocketTCP.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
