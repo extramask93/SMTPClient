@@ -15,12 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CLP_7_3_client.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="CLP_7_3_clientw.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="SocketTCP.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

@@ -3,7 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DJSocket", "DJSocket\DJSocket.vcxproj", "{BA0CFB2F-AED1-4FE2-A332-8AE5A861FD41}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Catch_IPAddressTests", "Catch_IPAddressTests\Catch_IPAddressTests.vcxproj", "{07E5ACBF-97EC-4505-B62E-B6E3BE664275}"
+	ProjectSection(ProjectDependencies) = postProject
+		{43845A01-B075-466F-A82B-A34DC65BF092} = {43845A01-B075-466F-A82B-A34DC65BF092}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F7816DA3-2C96-4098-8073-98FD0A9A887F}"
+	ProjectSection(SolutionItems) = preProject
+		Minimal.runsettings = Minimal.runsettings
+		ReferenceTests.runsettings = ReferenceTests.runsettings
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SocketTCP", "SocketTCP\SocketTCP.vcxproj", "{43845A01-B075-466F-A82B-A34DC65BF092}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SMTPClient", "SMTPClient\SMTPClient.vcxproj", "{74011721-8FAC-4B19-8164-09EBF7DDA643}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +26,30 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BA0CFB2F-AED1-4FE2-A332-8AE5A861FD41}.Debug|x64.ActiveCfg = Debug|x64
-		{BA0CFB2F-AED1-4FE2-A332-8AE5A861FD41}.Debug|x64.Build.0 = Debug|x64
-		{BA0CFB2F-AED1-4FE2-A332-8AE5A861FD41}.Debug|x86.ActiveCfg = Debug|Win32
-		{BA0CFB2F-AED1-4FE2-A332-8AE5A861FD41}.Debug|x86.Build.0 = Debug|Win32
-		{BA0CFB2F-AED1-4FE2-A332-8AE5A861FD41}.Release|x64.ActiveCfg = Release|x64
-		{BA0CFB2F-AED1-4FE2-A332-8AE5A861FD41}.Release|x64.Build.0 = Release|x64
-		{BA0CFB2F-AED1-4FE2-A332-8AE5A861FD41}.Release|x86.ActiveCfg = Release|Win32
-		{BA0CFB2F-AED1-4FE2-A332-8AE5A861FD41}.Release|x86.Build.0 = Release|Win32
+		{07E5ACBF-97EC-4505-B62E-B6E3BE664275}.Debug|x64.ActiveCfg = Debug|x64
+		{07E5ACBF-97EC-4505-B62E-B6E3BE664275}.Debug|x64.Build.0 = Debug|x64
+		{07E5ACBF-97EC-4505-B62E-B6E3BE664275}.Debug|x86.ActiveCfg = Debug|Win32
+		{07E5ACBF-97EC-4505-B62E-B6E3BE664275}.Debug|x86.Build.0 = Debug|Win32
+		{07E5ACBF-97EC-4505-B62E-B6E3BE664275}.Release|x64.ActiveCfg = Release|x64
+		{07E5ACBF-97EC-4505-B62E-B6E3BE664275}.Release|x64.Build.0 = Release|x64
+		{07E5ACBF-97EC-4505-B62E-B6E3BE664275}.Release|x86.ActiveCfg = Release|Win32
+		{07E5ACBF-97EC-4505-B62E-B6E3BE664275}.Release|x86.Build.0 = Release|Win32
+		{43845A01-B075-466F-A82B-A34DC65BF092}.Debug|x64.ActiveCfg = Debug|x64
+		{43845A01-B075-466F-A82B-A34DC65BF092}.Debug|x64.Build.0 = Debug|x64
+		{43845A01-B075-466F-A82B-A34DC65BF092}.Debug|x86.ActiveCfg = Debug|Win32
+		{43845A01-B075-466F-A82B-A34DC65BF092}.Debug|x86.Build.0 = Debug|Win32
+		{43845A01-B075-466F-A82B-A34DC65BF092}.Release|x64.ActiveCfg = Release|x64
+		{43845A01-B075-466F-A82B-A34DC65BF092}.Release|x64.Build.0 = Release|x64
+		{43845A01-B075-466F-A82B-A34DC65BF092}.Release|x86.ActiveCfg = Release|Win32
+		{43845A01-B075-466F-A82B-A34DC65BF092}.Release|x86.Build.0 = Release|Win32
+		{74011721-8FAC-4B19-8164-09EBF7DDA643}.Debug|x64.ActiveCfg = Debug|x64
+		{74011721-8FAC-4B19-8164-09EBF7DDA643}.Debug|x64.Build.0 = Debug|x64
+		{74011721-8FAC-4B19-8164-09EBF7DDA643}.Debug|x86.ActiveCfg = Debug|Win32
+		{74011721-8FAC-4B19-8164-09EBF7DDA643}.Debug|x86.Build.0 = Debug|Win32
+		{74011721-8FAC-4B19-8164-09EBF7DDA643}.Release|x64.ActiveCfg = Release|x64
+		{74011721-8FAC-4B19-8164-09EBF7DDA643}.Release|x64.Build.0 = Release|x64
+		{74011721-8FAC-4B19-8164-09EBF7DDA643}.Release|x86.ActiveCfg = Release|Win32
+		{74011721-8FAC-4B19-8164-09EBF7DDA643}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
