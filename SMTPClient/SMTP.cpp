@@ -1,7 +1,6 @@
 #include "pch.h"
 #include "SMTP.h"
 #include <iostream>
-#include "IPAddress.h"
 #include "SocketTCP.h"
 #include "encoder.h"
 #define SERVER "S: "
